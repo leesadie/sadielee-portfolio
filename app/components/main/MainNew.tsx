@@ -1,0 +1,389 @@
+'use client';
+
+import { font_med } from "@/app/fonts";
+import Image from "next/image";
+import ButtonNew from "../ButtonNew";
+import WorkCard from "../WorkCard";
+
+const MainNew = () => {
+    return (
+        <div className="flex flex-col max-w-2xl w-full mx-auto md:px-4 px-6">
+            {/* ABOUT */}
+            <section
+                id="about"
+                className="flex flex-col md:pt-28 pt-18"
+            >
+                <div className="flex flex-row gap-4">
+                    <Image 
+                        src='/images/pfp_new.svg'
+                        alt="about"
+                        height={64}
+                        width={64}
+                        className="rounded-full"
+                    />
+                    <div className='text-2xl pt-4'>
+                        Sadie Lee
+                    </div>
+                </div>
+                <div className='pt-8 text-graysubtitle'>
+                    <p>
+                        I am a research student at 
+                        <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
+                                Mayo Clinic Platform
+                            </a>
+                        </span>,
+                        investigating risks to patient privacy from AI models trained on de-identified medical images. I also study cognitive science and data science at the 
+                        <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                            <a target="_blank" rel="noopener noreferrer" href="https://cogsys.ubc.ca/" className="pl-1">
+                                University of British Columbia
+                            </a>
+                        </span>,
+                        graduating May 2026. 
+                    </p>
+                </div>
+                <div className="pt-4 text-graysubtitle">
+                    My interests span building, using, and evaluating AI/ML for human health. Previously, I’ve worked at 
+                    <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                        <a target="_blank" rel="noopener noreferrer" href="https://bcchr.ca/dhil" className="pl-1">
+                            BC Children's Hospital Research Institute
+                        </a>
+                    </span>,
+                    <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                        <a target="_blank" rel="noopener noreferrer" href="https://eml.ubc.ca/" className="pl-1">
+                            UBC Emerging Media Lab
+                        </a>
+                    </span>,
+                    and
+                    <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                        <a target="_blank" rel="noopener noreferrer" href="https://voythos.io/" className="pl-1">
+                            Voythos
+                        </a>
+                    </span>
+                    . 
+                </div>
+                <div className="flex flex-row md:gap-4 gap-2 pt-8">
+                    <div className="flex-col w-fit flex">
+                        <ButtonNew 
+                            href="mailto:leesadie025@gmail.com"
+                            text="EMAIL"
+                        />
+                    </div>
+                    <div className="flex-col w-fit flex">
+                        <ButtonNew 
+                            href="https://github.com/leesadie"
+                            text="GITHUB"
+                        />
+                    </div>
+                    <div className="flex-col w-fit flex">
+                        <ButtonNew 
+                            href="https://www.linkedin.com/in/leesadie/"
+                            text="LINKEDIN"
+                        />
+                    </div>
+                    <div className="flex-col w-fit hidden md:flex">
+                        <ButtonNew 
+                            href="files/Sadie_Lee_Resume.pdf"
+                            text="RESUME"
+                        />
+                    </div>
+                </div>
+                <div className="pt-2 flex flex-col w-fit md:hidden">
+                    <ButtonNew 
+                        href="files/Sadie_Lee_Resume.pdf"
+                        text="RESUME"
+                    />
+                </div>
+            </section>
+
+            {/* WORK */}
+            <section
+                id="work"
+                className="flex flex-col pt-16"
+            >
+                <div className={`${font_med.className}`}>
+                    Selected Work
+                </div>
+                <div className="flex flex-col pt-8">
+                    <div className="flex md:flex-row flex-col gap-2">
+                        <div className="md:w-1/2">
+                            <WorkCard image="/images/voythos.svg" head="Voythos Imaging Pipeline" date="Summer 2025"/>
+                        </div>
+                        <div className="md:w-1/2 flex flex-col text-graysubtitle">
+                            At Voythos, an early-stage startup, I built a medical image processing and modeling pipeline to predict trajectories for patients with complex cardiovascular diseases.
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-col md:pt-4 pt-8">
+                    <div className="flex md:flex-row flex-col gap-2">
+                        <div className="md:w-1/2">
+                            <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
+                        </div>
+                        <div className="md:w-1/2 flex flex-col text-graysubtitle">
+                            As an intern at Mayo Clinic Platform, I developed an end-to-end medical imaging for AI/ML workflow, helping Accelerate expand their capabilities to provide medical image datasets to customers.
+                        </div>
+                    </div>
+                </div>
+                <div className="flex flex-col md:pt-4 pt-8">
+                    <div className="flex md:flex-row flex-col gap-2">
+                        <div className="md:w-1/2">
+                            <WorkCard image="/images/bcchr_reachout.svg" head="BCCHR Time in Range Data" date="2023-2024"/>
+                        </div>
+                        <div className="md:w-1/2 flex flex-col text-graysubtitle">
+                            <p>
+                                I led time in range data collection and analysis for the
+                                <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                                    <a target="_blank" rel="noopener noreferrer" href="https://tangdiabeteslab.com/portfolio-details-t1d-nexgen.php" className="px-1">
+                                        T1D REACHOUT
+                                    </a>
+                                </span>
+                                study, and wrote scripts in R to facilitate data analysis.
+                            </p>
+                            <div className="pt-4 flex flex-col w-fit">
+                                <ButtonNew href="https://github.com/leesadie/REACHOUT_TIR_Collection" text="CODE"/>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            {/* RESEARCH */}
+            <section
+                id="research"
+                className="flex flex-col pt-16"
+            >
+                <div className={`${font_med.className}`}>
+                    Research
+                </div>
+                <div className="pt-8">
+                    {/* BCCHR paper */}
+                    <div className="group text-graysubtitle">
+                        <div>
+                            Design and Implementation of a Mobile App to Deliver Peer Support to Adults with T1D: Operational Feasibility Study
+                        </div>
+                        <div className="pt-1 text-sm text-graysubtitle2">
+                            Sadie Lee, Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S. Tang
+                        </div>
+                        <div className="text-sm text-graysubtitle2">
+                            In Progress
+                        </div>
+                    </div>
+                    {/* IEEE URTC paper */}
+                    <div
+                        className="
+                            relative
+                            mt-6
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-sm
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.02]
+                            hover:before:scale-y-[1.2]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/10937534">
+                            <div>
+                                Formalizing Ethical Design in Prostate Cancer Image Analysis: Preliminary Case Study
+                            </div>
+                            <div className="pt-1 text-sm text-graysubtitle2">
+                                Sadie Lee, Adam Resnick, Nasibeh Zanjirani Farahani
+                            </div>
+                            <div className="text-sm text-graysubtitle2">
+                                October 2024 • IEEE MIT URTC
+                            </div>
+                        </a>
+                    </div>
+                    {/* AAAI paper */}
+                    <div
+                        className="
+                            relative
+                            mt-6
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-sm
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.02]
+                            hover:before:scale-y-[1.2]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="/files/AAAI_UC_Proposal.pdf">
+                            <div>
+                                Topological Data Analysis and Interpretability of 3D-Convolutional Neural Networks
+                            </div>
+                            <div className="pt-1 text-sm text-graysubtitle2">
+                                Sadie Lee
+                            </div>
+                            <div className="text-sm text-graysubtitle2">
+                                February 2024 • AAAI Undergraduate Consortium
+                            </div>
+                        </a>
+                    </div>
+                    {/* MINT paper */}
+                    <div
+                        className="
+                            relative
+                            mt-6
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-sm
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.02]
+                            hover:before:scale-y-[1.2]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="/files/HCI_BCI_Lit_Review.pdf">
+                            <div>
+                                Human Computer Interaction for Brain Computer Interfaces with Reinforcement Learning
+                            </div>
+                            <div className='pt-1 text-sm text-graysubtitle2'>
+                                Sadie Lee
+                            </div>
+                            <div className="text-sm text-graysubtitle2">
+                                December 2023 • UBC Multifaceted Innovations in Neurotechnology (MINT)
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+
+            {/* MORE */}
+            <section
+                id="more"
+                className="flex flex-col pt-16 pb-28"
+            >
+                <div className={`${font_med.className}`}>
+                    More
+                </div>
+                <div className="pt-8">
+                    <div
+                        className="
+                            relative
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-md
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.03]
+                            hover:before:scale-y-[1.4]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="https://voythos.io/">
+                            <div className="flex flex-row gap-1">
+                                <div className="text-graysubtitle">
+                                    Voythos Web Development
+                                </div>
+                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                                <div className="text-graysubtitle">
+                                    2025
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        className="
+                            relative
+                            mt-4
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-md
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.03]
+                            hover:before:scale-y-[1.4]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="https://ubcballet.vercel.app/">
+                            <div className="flex flex-row gap-1">
+                                <div className="text-graysubtitle">
+                                    UBC Ballet Web Development
+                                </div>
+                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                                <div className="text-graysubtitle">
+                                    2024-2025
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        className="
+                            relative
+                            mt-4
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-md
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.03]
+                            hover:before:scale-y-[1.4]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="https://kyralee.vercel.app/">
+                            <div className="flex flex-row gap-1">
+                                <div className="text-graysubtitle">
+                                    Kyra Lee Portfolio
+                                </div>
+                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                                <div className="text-graysubtitle">
+                                    2024
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </section>
+        </div>
+    );
+}
+
+export default MainNew;

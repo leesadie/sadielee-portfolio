@@ -1,9 +1,9 @@
-import MainPage from "./components/main/MainPage";
+import MainNew from "./components/main/MainNew";
 
 export default function Home() {
   return (
     <div>
-      <MainPage />
+      <MainNew />
     </div>
   );
 }

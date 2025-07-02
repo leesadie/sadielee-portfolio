@@ -5,7 +5,7 @@ import { font_body } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Sadie Lee",
-  description: "Research Student at Mayo Clinic Platform, Cognitive Science & Data Science Student at UBC.",
+  description: "Building, using, and evaluating AI/ML for human health.",
 };
 
 export default function RootLayout({

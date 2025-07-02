@@ -14,3 +14,8 @@ export const font_bold = localFont({
     src: './HelveticaNeue-Bold-02.ttf',
     display: 'swap'
 })
+
+export const font_mono = localFont({
+    src: './SFMono-Light.otf',
+    display: 'swap'
+})
