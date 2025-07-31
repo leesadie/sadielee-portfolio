@@ -107,10 +107,10 @@ const MainNew = () => {
                 <div className="flex flex-col pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
                         <div className="md:w-1/2">
-                            <WorkCard image="/images/voythos.svg" head="Voythos Imaging Pipeline" date="Summer 2025"/>
+                            <WorkCard image="/images/voythos.svg" head="Voythos Imaging" date="Summer 2025"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            At Voythos, an early-stage startup, I built a medical image processing and modeling pipeline to predict trajectories for patients with complex cardiovascular diseases.
+                            At Voythos, an early-stage startup, I built medical image models as part of a pipeline to predict trajectories for patients with complex aortic diseases. I also optimized training, refactored code, wrote unit tests, created 2D and 3D visualizations, and prepared documentation.
                         </div>
                     </div>
                 </div>
@@ -120,7 +120,7 @@ const MainNew = () => {
                             <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            As an intern at Mayo Clinic Platform, I developed an end-to-end medical imaging for AI/ML workflow, helping Accelerate expand their capabilities to provide medical image datasets to customers.
+                            As an intern at Mayo Clinic Platform, I primarily developed an end-to-end medical imaging for AI/ML workflow, supporting Accelerate’s expansion to provide image datasets to customers. 
                         </div>
                     </div>
                 </div>
@@ -137,7 +137,7 @@ const MainNew = () => {
                                         T1D REACHOUT
                                     </a>
                                 </span>
-                                study, and wrote scripts in R to facilitate data analysis.
+                                study at BC Children’s Hospital Research Institute/UBC Faculty of Medicine, and wrote scripts in R to facilitate data analysis.
                             </p>
                             <div className="pt-4 flex flex-col w-fit">
                                 <ButtonNew href="https://github.com/leesadie/REACHOUT_TIR_Collection" text="CODE"/>
@@ -310,39 +310,6 @@ const MainNew = () => {
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
                                     2025
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        className="
-                            relative
-                            mt-4
-                            text-graysubtitle
-                            transition duration-300 ease-in
-                            before:absolute
-                            before:-inset-0.5
-                            before:rounded-md
-                            before:scale-100
-                            before:bg-transparent
-                            hover:before:bg-lightgray2
-                            before:transition
-                            before:duration-300
-                            before:ease-in-out
-                            before:-z-10
-                            hover:before:scale-x-[1.03]
-                            hover:before:scale-y-[1.4]
-                            cursor-pointer
-                        "
-                    >
-                        <a target="_blank" rel="noopener noreferrer" href="https://ubcballet.vercel.app/">
-                            <div className="flex flex-row gap-1">
-                                <div className="text-graysubtitle">
-                                    UBC Ballet Web Development
-                                </div>
-                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
-                                <div className="text-graysubtitle">
-                                    2024-2025
                                 </div>
                             </div>
                         </a>
