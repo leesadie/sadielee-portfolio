@@ -1,3 +1,3 @@
-# Portfolio 25-26
+# Sadie Lee Portfolio
 
 Visit at https://leesadie.vercel.app/
