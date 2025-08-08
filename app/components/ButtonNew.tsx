@@ -1,40 +1,43 @@
 'use client';
 
-import { GoArrowUpRight } from "react-icons/go";
-import { font_mono } from "../fonts";
+import { IconType } from "react-icons";
 
 interface ButtonProps {
     href: string;
     text: string;
+    icon?: IconType
 }
 
 const ButtonNew:React.FC<ButtonProps> = ({
     href,
-    text
+    text,
+    icon: Icon,
 }) => {
     return (
         <a
             href={href}
             target="_blank"
             rel="noopener noreferrer"
-            className="
+            className={`
                 text-graysubtitle
-                rounded-lg
-                bg-newgray
+                outline
+                outline-graysubtitle2
                 px-2
-                py-1
-                hover:opacity-60
+                ${Icon ? 'py-1' : 'py-0.5'}
+                ${Icon ? 'rounded-sm' : 'rounded-xs'}
+                hover:bg-graysubtitle2
+                hover:text-white
                 transition
                 duration-200
                 ease-in
-            "
+            `}
         >
             <div className="flex flex-row">
-                <div className={`text-sm ${font_mono.className}`}>
+                <div className={`${Icon ? 'text-sm' : 'text-xs'}`}>
                     {text}
                 </div>
                 <div className="pt-0.5">
-                    <GoArrowUpRight size={16}/>
+                    {Icon && <Icon size={16}/>}
                 </div>
             </div>
         </a>

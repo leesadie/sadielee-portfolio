@@ -4,6 +4,7 @@ import { font_med } from "@/app/fonts";
 import Image from "next/image";
 import ButtonNew from "../ButtonNew";
 import WorkCard from "../WorkCard";
+import { GoArrowUpRight } from "react-icons/go";
 
 const MainNew = () => {
     return (
@@ -62,36 +63,41 @@ const MainNew = () => {
                     </span>
                     . 
                 </div>
-                <div className="flex flex-row md:gap-4 gap-2 pt-8">
+                <div className="flex flex-row md:gap-3 gap-2 pt-8">
                     <div className="flex-col w-fit flex">
                         <ButtonNew 
                             href="mailto:leesadie025@gmail.com"
-                            text="EMAIL"
+                            text="Email"
+                            icon={GoArrowUpRight}
                         />
                     </div>
                     <div className="flex-col w-fit flex">
                         <ButtonNew 
                             href="https://github.com/leesadie"
-                            text="GITHUB"
+                            text="Github"
+                            icon={GoArrowUpRight}
                         />
                     </div>
                     <div className="flex-col w-fit flex">
                         <ButtonNew 
                             href="https://www.linkedin.com/in/leesadie/"
-                            text="LINKEDIN"
+                            text="LinkedIn"
+                            icon={GoArrowUpRight}
                         />
                     </div>
                     <div className="flex-col w-fit hidden md:flex">
                         <ButtonNew 
                             href="files/Sadie_Lee_Resume.pdf"
-                            text="RESUME"
+                            text="Resume"
+                            icon={GoArrowUpRight}
                         />
                     </div>
                 </div>
                 <div className="pt-2 flex flex-col w-fit md:hidden">
                     <ButtonNew 
                         href="files/Sadie_Lee_Resume.pdf"
-                        text="RESUME"
+                        text="Resume"
+                        icon={GoArrowUpRight}
                     />
                 </div>
             </section>
@@ -140,7 +146,7 @@ const MainNew = () => {
                                 study at BC Children’s Hospital Research Institute/UBC Faculty of Medicine, and wrote scripts in R to facilitate data analysis.
                             </p>
                             <div className="pt-4 flex flex-col w-fit">
-                                <ButtonNew href="https://github.com/leesadie/REACHOUT_TIR_Collection" text="CODE"/>
+                                <ButtonNew href="https://github.com/leesadie/REACHOUT_TIR_Collection" text="Code"/>
                             </div>
                         </div>
                     </div>
@@ -168,107 +174,98 @@ const MainNew = () => {
                             In Progress
                         </div>
                     </div>
+                    {/* Capstone paper */}
+                    <div
+                        className="
+                            mt-6
+                            text-graysubtitle
+                        "
+                    >
+                        <div>
+                            Re-identification Risk of Medical Imaging-Based Deep Learning Models
+                        </div>
+                        <div className="pt-1 text-sm text-graysubtitle2">
+                            Sadie Lee
+                        </div>
+                        <div className="text-sm text-graysubtitle2">
+                            August 2025 • Undergraduate Research Capstone
+                        </div>
+                    </div>
+                    <div className="flex flex-row gap-2">
+                        <div className="pt-4 flex flex-col w-fit">
+                            <ButtonNew href="/files/Re-id_Risk_Imaging.pdf" text="PDF"/>
+                        </div>
+                        <div className="pt-4 flex flex-col w-fit">
+                            <ButtonNew href="https://github.com/leesadie/Re-id_Risk_Imaging" text="Code"/>
+                        </div>
+                        <div className="pt-4 flex flex-col w-fit">
+                            <ButtonNew href="/files/MCP_Presentation_Jul24.pdf" text="Slides"/>
+                        </div>
+                    </div>
                     {/* IEEE URTC paper */}
                     <div
                         className="
-                            relative
                             mt-6
                             text-graysubtitle
-                            transition duration-300 ease-in
-                            before:absolute
-                            before:-inset-0.5
-                            before:rounded-sm
-                            before:scale-100
-                            before:bg-transparent
-                            hover:before:bg-lightgray2
-                            before:transition
-                            before:duration-300
-                            before:ease-in-out
-                            before:-z-10
-                            hover:before:scale-x-[1.02]
-                            hover:before:scale-y-[1.2]
-                            cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="https://ieeexplore.ieee.org/document/10937534">
-                            <div>
-                                Formalizing Ethical Design in Prostate Cancer Image Analysis: Preliminary Case Study
-                            </div>
-                            <div className="pt-1 text-sm text-graysubtitle2">
-                                Sadie Lee, Adam Resnick, Nasibeh Zanjirani Farahani
-                            </div>
-                            <div className="text-sm text-graysubtitle2">
-                                October 2024 • IEEE MIT URTC
-                            </div>
-                        </a>
+                        <div>
+                            Formalizing Ethical Design in Prostate Cancer Image Analysis: Preliminary Case Study
+                        </div>
+                        <div className="pt-1 text-sm text-graysubtitle2">
+                            Sadie Lee, Adam Resnick, Nasibeh Zanjirani Farahani
+                        </div>
+                        <div className="text-sm text-graysubtitle2">
+                            October 2024 • IEEE MIT URTC
+                        </div>
+                    </div>
+                    <div className="flex flex-row gap-2">
+                        <div className="pt-4 flex flex-col w-fit">
+                            <ButtonNew href="/files/MIT_URTC_Final.pdf" text="PDF"/>
+                        </div>
+                        <div className="pt-4 flex flex-col w-fit">
+                            <ButtonNew href="https://ieeexplore.ieee.org/document/10937534" text="IEEE"/>
+                        </div>
                     </div>
                     {/* AAAI paper */}
                     <div
                         className="
-                            relative
                             mt-6
                             text-graysubtitle
-                            transition duration-300 ease-in
-                            before:absolute
-                            before:-inset-0.5
-                            before:rounded-sm
-                            before:scale-100
-                            before:bg-transparent
-                            hover:before:bg-lightgray2
-                            before:transition
-                            before:duration-300
-                            before:ease-in-out
-                            before:-z-10
-                            hover:before:scale-x-[1.02]
-                            hover:before:scale-y-[1.2]
-                            cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="/files/AAAI_UC_Proposal.pdf">
-                            <div>
-                                Topological Data Analysis and Interpretability of 3D-Convolutional Neural Networks
-                            </div>
-                            <div className="pt-1 text-sm text-graysubtitle2">
-                                Sadie Lee
-                            </div>
-                            <div className="text-sm text-graysubtitle2">
-                                February 2024 • AAAI Undergraduate Consortium
-                            </div>
-                        </a>
+                        <div>
+                            Topological Data Analysis and Interpretability of 3D-Convolutional Neural Networks
+                        </div>
+                        <div className="pt-1 text-sm text-graysubtitle2">
+                            Sadie Lee
+                        </div>
+                        <div className="text-sm text-graysubtitle2">
+                            February 2024 • AAAI Undergraduate Consortium
+                        </div>
+                    </div>
+                    <div className="pt-4 flex flex-col w-fit">
+                        <ButtonNew href="/files/AAAI_UC_Proposal.pdf" text="PDF"/>
                     </div>
                     {/* MINT paper */}
                     <div
                         className="
-                            relative
                             mt-6
                             text-graysubtitle
-                            transition duration-300 ease-in
-                            before:absolute
-                            before:-inset-0.5
-                            before:rounded-sm
-                            before:scale-100
-                            before:bg-transparent
-                            hover:before:bg-lightgray2
-                            before:transition
-                            before:duration-300
-                            before:ease-in-out
-                            before:-z-10
-                            hover:before:scale-x-[1.02]
-                            hover:before:scale-y-[1.2]
-                            cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="/files/HCI_BCI_Lit_Review.pdf">
-                            <div>
-                                Human Computer Interaction for Brain Computer Interfaces with Reinforcement Learning
-                            </div>
-                            <div className='pt-1 text-sm text-graysubtitle2'>
-                                Sadie Lee
-                            </div>
-                            <div className="text-sm text-graysubtitle2">
-                                December 2023 • UBC Multifaceted Innovations in Neurotechnology (MINT)
-                            </div>
-                        </a>
+                        <div>
+                            Human Computer Interaction for Brain Computer Interfaces with Reinforcement Learning
+                        </div>
+                        <div className='pt-1 text-sm text-graysubtitle2'>
+                            Sadie Lee
+                        </div>
+                        <div className="text-sm text-graysubtitle2">
+                            December 2023 • UBC Multifaceted Innovations in Neurotechnology (MINT)
+                        </div>
+                    </div>
+                    <div className="pt-4 flex flex-col w-fit">
+                        <ButtonNew href="/files/HCI_BCI_Lit_Review.pdf" text="PDF"/>
                     </div>
                 </div>
             </section>
