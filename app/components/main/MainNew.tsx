@@ -44,7 +44,7 @@ const MainNew = () => {
                     </p>
                 </div>
                 <div className="pt-4 text-graysubtitle">
-                    My interests span building, using, and evaluating AI/ML for human health. Previously, I’ve worked at 
+                    My interests span building, using, and evaluating computational tools for human health. Previously, I’ve worked at 
                     <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                         <a target="_blank" rel="noopener noreferrer" href="https://bcchr.ca/dhil" className="pl-1">
                             BC Children's Hospital Research Institute
