@@ -344,6 +344,39 @@ const MainNew = () => {
                             </div>
                         </a>
                     </div>
+                    <div
+                        className="
+                            relative
+                            mt-4
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-md
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.03]
+                            hover:before:scale-y-[1.4]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie/forestar">
+                            <div className="flex flex-row gap-1">
+                                <div className="text-graysubtitle">
+                                    forestʌr
+                                </div>
+                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                                <div className="text-graysubtitle">
+                                    2023
+                                </div>
+                            </div>
+                        </a>
+                    </div>
                 </div>
             </section>
         </div>
