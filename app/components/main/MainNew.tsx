@@ -28,23 +28,22 @@ const MainNew = () => {
                 </div>
                 <div className='pt-8 text-graysubtitle'>
                     <p>
-                        I am a research student at 
-                        <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
-                            <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
-                                Mayo Clinic Platform
-                            </a>
-                        </span>,
-                        investigating risks to patient privacy from AI models trained on de-identified medical images. I also study cognitive science and data science at the 
+                        I study cognitive science and data science at the
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://cogsys.ubc.ca/" className="pl-1">
                                 University of British Columbia
                             </a>
-                        </span>,
-                        graduating May 2026. 
+                        </span>, graduating May 2026. 
+                        My recent research investigated risks to patient privacy from ML models trained on de-identified medical images, which I did with
+                        <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
+                            <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
+                                Mayo Clinic Platform 
+                            </a>
+                        </span>.
                     </p>
                 </div>
                 <div className="pt-4 text-graysubtitle">
-                    My interests span building, using, and evaluating computational tools for human health. Previously, I’ve worked at 
+                    My interests span building, using, and evaluating computational tools, particularly for human health. Previously, I’ve worked at 
                     <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                         <a target="_blank" rel="noopener noreferrer" href="https://bcchr.ca/dhil" className="pl-1">
                             BC Children's Hospital Research Institute
@@ -108,7 +107,7 @@ const MainNew = () => {
                 className="flex flex-col pt-16"
             >
                 <div className={`${font_med.className}`}>
-                    Selected Work
+                    Work Experience
                 </div>
                 <div className="flex flex-col pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
