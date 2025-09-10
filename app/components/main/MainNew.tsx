@@ -22,7 +22,7 @@ const MainNew = () => {
                         width={64}
                         className="rounded-full"
                     />
-                    <div className='text-2xl pt-4'>
+                    <div className={`${font_med.className} text-2xl pt-4`}>
                         Sadie Lee
                     </div>
                 </div>
@@ -34,7 +34,7 @@ const MainNew = () => {
                                 University of British Columbia
                             </a>
                         </span>, graduating May 2026. 
-                        My recent research investigated risks to patient privacy from ML models trained on de-identified medical images, which I did with
+                        My most research investigated risks to patient privacy from ML models trained on de-identified medical images, which I completed for my undergraduate thesis with
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
                                 Mayo Clinic Platform 
@@ -107,7 +107,7 @@ const MainNew = () => {
                 className="flex flex-col pt-16"
             >
                 <div className={`${font_med.className}`}>
-                    Work Experience
+                    Work
                 </div>
                 <div className="flex flex-col pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
@@ -115,7 +115,7 @@ const MainNew = () => {
                             <WorkCard image="/images/voythos.svg" head="Voythos Imaging" date="Summer 2025"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            At Voythos, an early-stage startup, I built medical image models as part of a pipeline to predict trajectories for patients with complex aortic diseases. I also optimized training, refactored code, wrote unit tests, created 2D and 3D visualizations, and prepared documentation.
+                            At Voythos, an early-stage startup, I built image segmentation models as part of a pipeline to predict trajectories for patients with complex aortic diseases. I also optimized training, refactored code, wrote unit tests, created 2D and 3D visualizations, and prepared documentation.
                         </div>
                     </div>
                 </div>
