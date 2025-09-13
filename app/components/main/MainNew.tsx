@@ -281,7 +281,6 @@ const MainNew = () => {
                     <div
                         className="
                             relative
-                            mt-4
                             text-graysubtitle
                             transition duration-300 ease-in
                             before:absolute
