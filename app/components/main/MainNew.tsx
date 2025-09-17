@@ -43,7 +43,7 @@ const MainNew = () => {
                     </p>
                 </div>
                 <div className="pt-4 text-graysubtitle">
-                    My interests span building, using, and evaluating computational tools, particularly for human health. Previously, I’ve worked at 
+                    My interests span building, using, and evaluating AI/ML systems, particularly for human health. Previously, I’ve worked at 
                     <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                         <a target="_blank" rel="noopener noreferrer" href="https://bcchr.ca/dhil" className="pl-1">
                             BC Children's Hospital Research Institute
@@ -125,7 +125,7 @@ const MainNew = () => {
                             <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            As an intern at Mayo Clinic Platform, I primarily developed an end-to-end medical imaging for AI/ML workflow, supporting Accelerate’s expansion to provide image datasets to customers. 
+                            As an intern at Mayo Clinic Platform, I primarily developed an end-to-end medical imaging for AI/ML workflow, supporting Accelerate’s expansion to provide image datasets to customers. I also built dashboards for product insights and customer acquisition.
                         </div>
                     </div>
                 </div>
