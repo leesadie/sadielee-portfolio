@@ -34,7 +34,7 @@ const MainNew = () => {
                                 University of British Columbia
                             </a>
                         </span>, graduating May 2026. 
-                        My most recent research investigated risks to patient privacy from ML models trained on de-identified medical images, which I completed for my undergraduate thesis with
+                        My most recent research investigated risks to patient privacy from deep learning models trained on de-identified medical images, which I completed with
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
                                 Mayo Clinic Platform 
@@ -115,7 +115,7 @@ const MainNew = () => {
                             <WorkCard image="/images/voythos.svg" head="Voythos Imaging" date="Summer 2025"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            At Voythos, an early-stage startup, I built image segmentation models as part of a pipeline to predict trajectories for patients with complex aortic diseases. I also optimized training, refactored code, wrote unit tests, created 2D and 3D visualizations, and prepared documentation.
+                            3D CT image segmentation models as part of a pipeline to predict trajectories for patients with complex aortic and cardiovascular diseases.
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const MainNew = () => {
                             <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            As an intern at Mayo Clinic Platform, I primarily developed an end-to-end medical imaging for AI/ML workflow, supporting Accelerate’s expansion to provide image datasets to customers. I also built dashboards for product insights and customer acquisition.
+                            Development and testing of an end-to-end de-identified medical imaging data for AI/ML workflow via classification and segmentation models.
                         </div>
                     </div>
                 </div>
@@ -136,13 +136,13 @@ const MainNew = () => {
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
                             <p>
-                                I led time in range data collection and analysis for the
+                                Automation of time in range data collection and analysis for the
                                 <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                                     <a target="_blank" rel="noopener noreferrer" href="https://tangdiabeteslab.com/portfolio-details-t1d-nexgen.php" className="px-1">
                                         T1D REACHOUT
                                     </a>
                                 </span>
-                                study at BC Children’s Hospital Research Institute/UBC Faculty of Medicine, and wrote scripts in R to facilitate data analysis.
+                                study at BC Children’s Hospital Research Institute/UBC Faculty of Medicine.
                             </p>
                             <div className="pt-4 flex flex-col w-fit">
                                 <ButtonNew href="https://github.com/leesadie/REACHOUT_TIR_Collection" text="Code"/>
@@ -302,39 +302,6 @@ const MainNew = () => {
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
                                     Concept Map Visualizer
-                                </div>
-                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
-                                <div className="text-graysubtitle">
-                                    2025
-                                </div>
-                            </div>
-                        </a>
-                    </div>
-                    <div
-                        className="
-                            relative
-                            mt-4
-                            text-graysubtitle
-                            transition duration-300 ease-in
-                            before:absolute
-                            before:-inset-0.5
-                            before:rounded-md
-                            before:scale-100
-                            before:bg-transparent
-                            hover:before:bg-lightgray2
-                            before:transition
-                            before:duration-300
-                            before:ease-in-out
-                            before:-z-10
-                            hover:before:scale-x-[1.03]
-                            hover:before:scale-y-[1.4]
-                            cursor-pointer
-                        "
-                    >
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie/gt_tic-tac-toe">
-                            <div className="flex flex-row gap-1">
-                                <div className="text-graysubtitle">
-                                    Game-Theoretic Q-Learning for Tic-Tac-Toe
                                 </div>
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
