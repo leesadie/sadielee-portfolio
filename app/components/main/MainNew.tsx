@@ -43,7 +43,7 @@ const MainNew = () => {
                     </p>
                 </div>
                 <div className="pt-4 text-graysubtitle">
-                    I'm interested in building, evaluating, and understanding AI/ML systems, particularly for human health. Previously, I’ve worked at 
+                    I'm interested in building, evaluating, and understanding AI/ML systems, particularly for human health. Previously, I’ve also worked at 
                     <span className={`hover:opacity-60 cursor-pointer transition duration-200 text-gray-900 ${font_med.className}`}>
                         <a target="_blank" rel="noopener noreferrer" href="https://bcchr.ca/dhil" className="pl-1">
                             BC Children's Hospital Research Institute
@@ -107,7 +107,7 @@ const MainNew = () => {
                 className="flex flex-col pt-16"
             >
                 <div className={`${font_med.className}`}>
-                    Work
+                    Selected Work
                 </div>
                 <div className="flex flex-col pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
@@ -115,7 +115,7 @@ const MainNew = () => {
                             <WorkCard image="/images/voythos.svg" head="Voythos Imaging" date="Summer 2025"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            3D CT image segmentation models as part of a pipeline to predict trajectories for patients with complex aortic and cardiovascular diseases.
+                            3D CT image multi-task (segmentation + classification) models as part of a pipeline to predict trajectories for patients with complex aortic diseases.
                         </div>
                     </div>
                 </div>
@@ -125,7 +125,7 @@ const MainNew = () => {
                             <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            Development and testing of an end-to-end de-identified medical imaging data for AI/ML workflow via classification and segmentation models.
+                            Development and testing of an end-to-end AI/ML workflow for de-identified medical imaging via classification and segmentation models.
                         </div>
                     </div>
                 </div>
