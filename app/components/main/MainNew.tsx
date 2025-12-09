@@ -331,7 +331,7 @@ const MainNew = () => {
                             cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/voythos-web/voythos-web">
+                        <a target="_blank" rel="noopener noreferrer" href="https://www.voythos.io/">
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
                                     Voythos Web Development
