@@ -112,20 +112,20 @@ const MainNew = () => {
                 <div className="flex flex-col pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
                         <div className="md:w-1/2">
-                            <WorkCard image="/images/voythos.svg" head="Voythos Imaging" date="Summer 2025"/>
+                            <WorkCard image="/images/voythos.svg" head="Voythos Multi-Task Image Model" date="Summer 2025"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            3D CT image multi-task (segmentation + classification) models as part of a pipeline to predict trajectories for patients with complex aortic diseases.
+                            Custom Swin UNETR to segment the aorta and detect thrombosis as part of a pipeline to predict trajectories for patients with complex aortic diseases.
                         </div>
                     </div>
                 </div>
                 <div className="flex flex-col md:pt-4 pt-8">
                     <div className="flex md:flex-row flex-col gap-2">
                         <div className="md:w-1/2">
-                            <WorkCard image="/images/mcp_accelerate.svg" head="MCP_Accelerate Imaging" date="Summer 2024"/>
+                            <WorkCard image="/images/mcp_accelerate.svg" head="MCP AI/ML Image Workflow" date="Summer 2024"/>
                         </div>
                         <div className="md:w-1/2 flex flex-col text-graysubtitle">
-                            Development and testing of an end-to-end AI/ML workflow for de-identified medical imaging via classification and segmentation models.
+                            Building models to develop and test an end-to-end workflow for de-identified DICOM medical imaging data.
                         </div>
                     </div>
                 </div>
@@ -170,7 +170,7 @@ const MainNew = () => {
                             Sadie Lee, Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S. Tang
                         </div>
                         <div className="text-sm text-graysubtitle2">
-                            In Progress
+                            In Progress • BC Children's Hospital Research Institute, UBC Faculty of Medicine
                         </div>
                     </div>
                     {/* Capstone paper */}
@@ -184,10 +184,10 @@ const MainNew = () => {
                             Re-identification Risk of Medical Imaging-Based Deep Learning Models
                         </div>
                         <div className="pt-1 text-sm text-graysubtitle2">
-                            Sadie Lee
+                            Sadie Lee, Adam Resnick, Rob Blundo
                         </div>
                         <div className="text-sm text-graysubtitle2">
-                            August 2025 • Undergraduate Research Capstone
+                            Undergraduate Thesis 2025 • Mayo Clinic Platform
                         </div>
                     </div>
                     <div className="flex flex-row gap-2">
@@ -215,7 +215,7 @@ const MainNew = () => {
                             Sadie Lee, Adam Resnick, Nasibeh Zanjirani Farahani
                         </div>
                         <div className="text-sm text-graysubtitle2">
-                            October 2024 • IEEE MIT URTC
+                            IEEE MIT URTC 2024 • Mayo Clinic Platform
                         </div>
                     </div>
                     <div className="flex flex-row gap-2">
@@ -240,31 +240,11 @@ const MainNew = () => {
                             Sadie Lee
                         </div>
                         <div className="text-sm text-graysubtitle2">
-                            February 2024 • AAAI Undergraduate Consortium
+                            AAAI Undergraduate Consortium 2024
                         </div>
                     </div>
                     <div className="pt-4 flex flex-col w-fit">
                         <ButtonNew href="/files/AAAI_UC_Proposal.pdf" text="PDF"/>
-                    </div>
-                    {/* MINT paper */}
-                    <div
-                        className="
-                            mt-6
-                            text-graysubtitle
-                        "
-                    >
-                        <div>
-                            Human Computer Interaction for Brain Computer Interfaces with Reinforcement Learning
-                        </div>
-                        <div className='pt-1 text-sm text-graysubtitle2'>
-                            Sadie Lee
-                        </div>
-                        <div className="text-sm text-graysubtitle2">
-                            December 2023 • UBC Multifaceted Innovations in Neurotechnology (MINT)
-                        </div>
-                    </div>
-                    <div className="pt-4 flex flex-col w-fit">
-                        <ButtonNew href="/files/HCI_BCI_Lit_Review.pdf" text="PDF"/>
                     </div>
                 </div>
             </section>
@@ -298,10 +278,10 @@ const MainNew = () => {
                             cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie/concept-map-viewer">
+                        <a target="_blank" rel="noopener noreferrer" href="https://patterns-of-growth.vercel.app/">
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
-                                    Concept Map Visualizer
+                                    Patterns of Growth
                                 </div>
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
@@ -334,7 +314,7 @@ const MainNew = () => {
                         <a target="_blank" rel="noopener noreferrer" href="https://www.voythos.io/">
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
-                                    Voythos Web Development
+                                    Voythos Web
                                 </div>
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
@@ -364,10 +344,10 @@ const MainNew = () => {
                             cursor-pointer
                         "
                     >
-                        <a target="_blank" rel="noopener noreferrer" href="https://kyralee.vercel.app/">
+                        <a target="_blank" rel="noopener noreferrer" href="https://ubcballet.vercel.app/">
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
-                                    Kyra Lee Portfolio
+                                    UBC Ballet Web
                                 </div>
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
@@ -400,7 +380,7 @@ const MainNew = () => {
                         <a target="_blank" rel="noopener noreferrer" href="https://github.com/leesadie/forestar">
                             <div className="flex flex-row gap-1">
                                 <div className="text-graysubtitle">
-                                    Forestʌr
+                                    Forestar App
                                 </div>
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
