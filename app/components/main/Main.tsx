@@ -36,7 +36,7 @@ const Main = () => {
                             Sadie Lee
                         </div>
                     </div>
-                    <div className="flex flex-row gap-2 pt-4">
+                    <div className="flex flex-row gap-2 md:pt-4 pt-5">
                         <a href="mailto:leesadie025@gmail.com" target="_blank" rel="noopener noreferrer" className="hover:opacity-60 transition duration-200">
                             <MdMail size={24} className="text-main"/>
                         </a>
@@ -153,13 +153,13 @@ const Main = () => {
                         <div>
                             T1D REACHOUT - a mobile app to deliver peer support to adults living with type 1 diabetes: The co-design and development process
                         </div>
-                        <p className="pt-1 text-sm text-graysubtitle2">
+                        <p className="md:pt-1 pt-2 text-sm text-graysubtitle2">
                             <span className={`${font_med.className}`}>
                                 Sadie Lee
                             </span>
                             , Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S. Tang
                         </p>
-                        <div className="text-sm text-graysubtitle2">
+                        <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
                             In Progress • BC Children's Hospital Research Institute, UBC Faculty of Medicine
                         </div>
                     </div>
@@ -169,13 +169,13 @@ const Main = () => {
                         <div>
                             Re-identification Risk of Medical Imaging-Based Deep Learning Models
                         </div>
-                        <p className="pt-1 text-sm text-graysubtitle2">
+                        <p className="md:pt-1 pt-2 text-sm text-graysubtitle2">
                             <span className={`${font_med.className}`}>
                                 Sadie Lee
                             </span>
                             , Adam Resnick, Rob Blundo
                         </p>
-                        <div className="text-sm text-graysubtitle2">
+                        <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
                             Undergraduate Thesis 2025 • Mayo Clinic Platform
                         </div>
                         <div className="flex flex-row gap-1 pt-2">
@@ -202,13 +202,13 @@ const Main = () => {
                         <div>
                             Formalizing Ethical Design in Prostate Cancer Image Analysis: Preliminary Case Study
                         </div>
-                        <p className="pt-1 text-sm text-graysubtitle2">
+                        <p className="md:pt-1 pt-2 text-sm text-graysubtitle2">
                             <span className={`${font_med.className}`}>
                                 Sadie Lee
                             </span>
                             , Adam Resnick, Nasibeh Zanjirani Farahani
                         </p>
-                        <div className="text-sm text-graysubtitle2">
+                        <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
                             IEEE MIT URTC 2024 • Mayo Clinic Platform
                         </div>
                         <div className="flex flex-row gap-1 pt-2">
@@ -230,12 +230,12 @@ const Main = () => {
                         <div>
                             Topological Data Analysis and Interpretability of 3D-Convolutional Neural Networks
                         </div>
-                        <p className="pt-1 text-sm text-graysubtitle2">
+                        <p className="md:pt-1 pt-2 text-sm text-graysubtitle2">
                             <span className={`${font_med.className}`}>
                                 Sadie Lee
                             </span>
                         </p>
-                        <div className="text-sm text-graysubtitle2">
+                        <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
                             AAAI Undergraduate Consortium 2024
                         </div>
                         <div className="flex flex-row gap-1 pt-2">

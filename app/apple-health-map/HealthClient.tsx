@@ -9,7 +9,7 @@ const HealthClient = () => {
         <div className="bg-mapbg flex flex-col w-screen h-full">
             <div className="md:p-10 p-5 w-screen md:w-full">
                 <Image 
-                    src='images/map_hero.svg'
+                    src='images/apple-health/map_hero.svg'
                     alt="map hero"
                     height={1500}
                     width={1500}
@@ -72,9 +72,9 @@ const HealthClient = () => {
                     and the work of designers and developers involves the Internet and computer networks. 
                 </p>
                 <div className="flex items-center justify-center pt-5 w-screen md:w-full px-6 md:px-0">
-                    <a href="/files/SupplyChain.pdf" rel="noopener noreferrer" target="_blank">
+                    <a href="/files/apple-health/SupplyChain.pdf" rel="noopener noreferrer" target="_blank">
                         <Image 
-                            src='/images/supply_chain.svg'
+                            src='/images/apple-health/supply_chain.svg'
                             alt="supply chain"
                             height={700}
                             width={700}
@@ -103,9 +103,9 @@ const HealthClient = () => {
                     <Citation ids={[12]}/> 
                 </p>
                 <div className="flex items-center justify-center pt-5">
-                    <a href="/files/DataFlow.pdf" rel="noopener noreferrer" target="_blank">
+                    <a href="/files/apple-health/DataFlow.pdf" rel="noopener noreferrer" target="_blank">
                         <Image 
-                            src='/images/data.svg'
+                            src='/images/apple-health/data.svg'
                             alt="data"
                             height={700}
                             width={700}
@@ -118,9 +118,9 @@ const HealthClient = () => {
                     <Citation ids={[4]}/> 
                 </p>
                 <div className="flex items-center justify-center pt-5 md:w-full w-screen md:p-0 p-6">
-                    <a href="/files/HealthKit.pdf" rel="noopener noreferrer" target="_blank">
+                    <a href="/files/apple-health/HealthKit.pdf" rel="noopener noreferrer" target="_blank">
                         <Image 
-                            src='/images/healthkit.svg'
+                            src='/images/apple-health/healthkit.svg'
                             alt="healthkit"
                             height={600}
                             width={600}
@@ -138,9 +138,9 @@ const HealthClient = () => {
                     <Citation ids={[15, 16]}/>
                 </p>
                 <div className="flex items-center justify-center pt-5 md:w-full w-screen md:p-0 p-6">
-                    <a href="/files/Hardware.pdf" rel="noopener noreferrer" target="_blank">
+                    <a href="/files/apple-health/Hardware.pdf" rel="noopener noreferrer" target="_blank">
                         <Image 
-                            src='/images/hardware.svg'
+                            src='/images/apple-health/hardware.svg'
                             alt="hardware"
                             height={700}
                             width={700}
