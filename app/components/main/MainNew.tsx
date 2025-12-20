@@ -255,7 +255,7 @@ const MainNew = () => {
                 className="flex flex-col pt-16 pb-28"
             >
                 <div className={`${font_med.className}`}>
-                    More
+                    Projects
                 </div>
                 <div className="pt-8">
                     <div
@@ -352,6 +352,39 @@ const MainNew = () => {
                                 <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
                                 <div className="text-graysubtitle">
                                     2024
+                                </div>
+                            </div>
+                        </a>
+                    </div>
+                    <div
+                        className="
+                            relative
+                            mt-4
+                            text-graysubtitle
+                            transition duration-300 ease-in
+                            before:absolute
+                            before:-inset-0.5
+                            before:rounded-md
+                            before:scale-100
+                            before:bg-transparent
+                            hover:before:bg-lightgray2
+                            before:transition
+                            before:duration-300
+                            before:ease-in-out
+                            before:-z-10
+                            hover:before:scale-x-[1.03]
+                            hover:before:scale-y-[1.4]
+                            cursor-pointer
+                        "
+                    >
+                        <a target="_blank" rel="noopener noreferrer" href="/apple-health-map">
+                            <div className="flex flex-row gap-1">
+                                <div className="text-graysubtitle">
+                                    A Map of Apple Heatlh
+                                </div>
+                                <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                                <div className="text-graysubtitle">
+                                    2023
                                 </div>
                             </div>
                         </a>
