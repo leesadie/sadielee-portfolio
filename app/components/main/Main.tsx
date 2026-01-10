@@ -185,7 +185,7 @@ const Main = () => {
                                 icon={RiCodeSSlashFill}
                             />
                             <Button 
-                                href="/files/Re-id_Risk_Imaging.pdf"
+                                href="/files/Reid_Risk_Imaging_Final.pdf"
                                 text="PDF"
                                 icon={FaFilePdf}
                             />
