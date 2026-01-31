@@ -50,7 +50,7 @@ const Main = () => {
                 </div>
                 <div className="flex flex-col pt-10">
                     <p>
-                        I build and evaluate AI/ML models, particularly for human health, and examine how these systems are used in practice. I also create data visualizations and design interfaces to explore complex systems, working end-to-end from data collection to user-facing tools.
+                        I build and evaluate AI/ML models, particularly for human health, and examine how these systems are used in practice. I also create data visualizations and design interfaces to explore complex systems.
                     </p>
                     <p className="pt-5">
                         I currently study cognitive science and data science at the
