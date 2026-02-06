@@ -50,7 +50,7 @@ const Main = () => {
                 </div>
                 <div className="flex flex-col pt-10">
                     <p>
-                        I build and evaluate AI/ML systems, with a particular focus on understanding how they behave in critical domains. 
+                        I build and evaluate AI/ML systems, with a focus on understanding how they behave in critical domains. 
                     </p>
                     <p className="pt-5">
                         Currently, I study cognitive systems and data science at
