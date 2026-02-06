@@ -25,14 +25,13 @@ const Button: React.FC<ButtonProps> = ({
                 px-2
                 py-1
                 rounded-full
-                bg-button
-                hover:bg-newgray
+                bg-neutral-200
+                hover:bg-neutral-300
                 transition
-                duration-200
                 ease-in
             `}
         >
-            {Icon && <Icon size={16} />}
+            {Icon && <Icon size={15} />}
             {text && <span className="text-xs ml-1">{text}</span>}
         </a>
     );

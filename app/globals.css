@@ -14,7 +14,7 @@
 
 @media (prefers-color-scheme: dark) {
   :root {
-    --background: #FAFAFA;
+    --background: #f5f5f5;
     --foreground: #0a0a0a;
   }
 }
@@ -36,4 +36,5 @@ body {
   --color-mapbg: #1A1A1A;
   --color-main: #313131;
   --color-button: #F2F2F2;
+  --color-head: #0a0a0a;
 }

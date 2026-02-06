@@ -5,7 +5,7 @@ import { font_body } from "./fonts";
 
 export const metadata: Metadata = {
   title: "Sadie Lee",
-  description: "Building, using, and evaluating AI/ML for human health.",
+  description: "Building and evaluating AI/ML systems.",
 };
 
 export default function RootLayout({

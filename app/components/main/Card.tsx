@@ -7,48 +7,55 @@ interface CardProps {
     image: string;
     title: string;
     subtitle: string;
-    about: string;
-    button?: ReactNode;
+    button1?: ReactNode;
+    button2?: ReactNode;
+    button3?: ReactNode;
 }
 
 const Card: React.FC<CardProps> = ({
     image,
     title,
     subtitle,
-    about,
-    button
+    button1,
+    button2,
+    button3
 }) => {
     return (
         <div
             className="
-                md:w-64
                 w-full
-                h-72
+                h-32
                 border
                 border-newgray
                 rounded-sm
                 relative
-                pt-32
             "
         >
-            <div 
-                className='absolute inset-1.5 w-[calc(100%-rem*2)] h-32 bg-cover rounded-sm'
-                style={{ backgroundImage: `url(${image})` }}
-            ></div>
-            <div className="flex flex-col justify-between h-full">
-                <div>
-                    <div className={`px-3 pt-3 text-main ${font_med.className}`}>
+            <div className="flex flex-row justify-between">
+                <div className="flex flex-col w-2/3 p-2">
+                    <div className="text-sm">
                         {title}
                     </div>
-                    <div className="px-3 pt-0.5 text-sm text-graysubtitle">
+                    <div className="text-sm text-neutral-500 pt-1">
                         {subtitle}
                     </div>
-                    <div className="px-3 pt-1 text-sm text-graysubtitle">
-                        {about}
+                    <div className="flex flex-row gap-1 pt-4">
+                        <div>
+                            {button1}
+                        </div>
+                        <div>
+                            {button2}
+                        </div>
+                        <div>
+                            {button3}
+                        </div>
                     </div>
                 </div>
-                <div className="px-3 pb-3">
-                    {button}
+                <div className="w-1/3 h-32 p-2">
+                    <div
+                        className="w-full h-full bg-contain rounded-sm"
+                        style={{ backgroundImage: `url(${image})` }}
+                    />
                 </div>
             </div>
         </div>

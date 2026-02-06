@@ -4,19 +4,20 @@ interface ProjectProps {
     href: string;
     text: string;
     date: string;
+    newTab?: boolean;
 }
 
 const Project:React.FC<ProjectProps> = ({
     href,
     text,
-    date
+    date,
+    newTab = true,
 }) => {
     return (
         <div
             className="
                 relative
                 mt-4
-                text-main
                 transition duration-300 ease-in
                 before:absolute
                 before:-inset-0.5
@@ -33,11 +34,14 @@ const Project:React.FC<ProjectProps> = ({
                 cursor-pointer
             "
         >
-            <a href={href} target="_blank" rel="noopener noreferrer">
-                <div className="flex flex-row gap-1">
-                    <div>{text}</div>
-                    <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
-                    <div>{date}</div>
+            <a href={href} target={newTab ? "_blank" : undefined} rel={newTab ? "noopener noreferrer" : undefined}>
+                <div className="flex flex-row gap-4 items-start">
+                    {/* Content */}
+                    <div className="flex flex-1 flex-row gap-1 text-neutral-500">
+                        <div>{text}</div>
+                        <div className="border-t border-dashed border-graysubtitle flex-1 mt-3 mx-1"/>
+                        <div>{date}</div>
+                    </div>
                 </div>
             </a>
         </div>
