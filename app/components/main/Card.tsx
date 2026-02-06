@@ -1,6 +1,5 @@
 'use client';
 
-import { font_med } from "@/app/fonts";
 import { ReactNode } from "react";
 
 interface CardProps {
