@@ -98,7 +98,7 @@ const Main = () => {
                 <div className="pt-5 flex flex-col gap-2">
                     <Card 
                         image="/images/capstone.svg"
-                        title="Evaluating risks to patient re-identification from ML models trained on medical images"
+                        title="Evaluated risks to patient re-identification from ML models trained on medical images"
                         subtitle="Mayo Clinic Platform • 2025"
                         button1={
                             <Button 
@@ -125,7 +125,7 @@ const Main = () => {
 
                     <Card 
                         image="/images/mcp.svg"
-                        title="Developing an end-to-end AI/ML workflow for DICOM medical imaging with a prostate MR use case"
+                        title="Developed an end-to-end AI/ML workflow for medical imaging with a prostate MR use case"
                         subtitle="Mayo Clinic Platform • 2024"
                         button1={
                             <Button 
@@ -138,7 +138,7 @@ const Main = () => {
 
                     <Card 
                         image="/images/tir.svg"
-                        title="Automating time in range data collection and analysis for a clinical trial"
+                        title="Automated time in range data collection and analysis for a clinical trial"
                         subtitle="BCCHR • 2023-2024"
                         button1={
                             <Button 
