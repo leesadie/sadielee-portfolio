@@ -52,9 +52,9 @@ export default function VideoScroll() {
     };
 
     return (
-        <div className="flex min-h-screen">
-            {/* LEFT - TEXT */}
-            <div className="w-1/2 sticky top-0 h-screen flex flex-col justify-center px-12 overflow-hidden border-r border-neutral-100">
+        <div className="flex flex-col md:flex-row min-h-screen">
+            {/* DESKTOP LEFT - TEXT */}
+            <div className="hidden md:flex md:w-1/2 sticky top-0 h-screen flex-col justify-center px-12 overflow-hidden border-r border-neutral-100">
                 <div className="relative h-64 flex flex-col justify-center">
                     {DATA.map((item, index) => {
                         const isActive = activeIndex === index;
@@ -92,7 +92,7 @@ export default function VideoScroll() {
             </div>
 
             {/* RIGHT - VIDEOS */}
-            <div className="w-1/2 px-8 py-[50vh]">
+            <div className="md:w-1/2 w-full md:px-8 px-6 py-[20vh] md:py-[50vh]">
                 {DATA.map((item, index) => (
                     <MediaItem 
                         key={item.id}
@@ -140,8 +140,17 @@ function MediaItem({ item, index, setActiveIndex }: { item: any, index: number, 
             id={`video-section-${item.id}`}
             className="mb-32 last:mb-0 transition-transform duration-700"
         >
+            <div className="md:hidden mb-4">
+                <h2 className={`text-xl ${font_med.className} text-main`}>{item.title}</h2>
+                <p className="text-xs uppercase opacity-60">{item.description}</p>
+            </div>
             <motion.div
-                animate={{ opacity: isInView ? 1 : 0.4, scale: isInView ? 1 : 0.95}}
+                animate={{ 
+                    opacity: typeof window !== 'undefined' && window.innerWidth < 1024 
+                        ? 1 
+                        : (isInView ? 1 : 0.4),
+                    scale: isInView ? 1 : 0.95
+                }}
                 className="aspect-video w-full overflow-hidden rounded-sm bg-gray-100 shadow-2xl"
             >
                 <video 

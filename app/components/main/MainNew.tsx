@@ -32,19 +32,19 @@ const Main = () => {
                     </div>
                     <div className="flex flex-row gap-1 md:pt-4 pt-5">
                         <IconTooltip label="Email" href="mailto:leesadie025@gmail.com">
-                            <MdMail size={22} className="hover:opacity-60 transition duration-200 ease-in"/>
+                            <MdMail size={22} className="text-neutral-600 hover:opacity-60 transition duration-200 ease-in"/>
                         </IconTooltip>
 
                         <IconTooltip label="Github" href="https://www.github.com/leesadie">
-                            <IoLogoGithub size={22} className="hover:opacity-60 transition duration-200 ease-in"/>
+                            <IoLogoGithub size={22} className="text-neutral-600 hover:opacity-60 transition duration-200 ease-in"/>
                         </IconTooltip>
 
                         <IconTooltip label="LinkedIn" href="https://www.linkedin.com/in/leesadie/">
-                            <FaLinkedinIn size={22} className="hover:opacity-60 transition duration-200 ease-in" />
+                            <FaLinkedinIn size={22} className="text-neutral-600 hover:opacity-60 transition duration-200 ease-in" />
                         </IconTooltip>
 
                         <IconTooltip label="Resume" href="/files/Sadie_Lee_Resume.pdf">
-                            <IoDocumentTextSharp size={22} className="hover:opacity-60 transition duration-200 ease-in" />
+                            <IoDocumentTextSharp size={22} className="text-neutral-600 hover:opacity-60 transition duration-200 ease-in" />
                         </IconTooltip>
                     </div>
                 </div>
@@ -172,7 +172,14 @@ const Main = () => {
                             , Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S. Tang
                         </p>
                         <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
-                            In Progress • BC Children's Hospital Research Institute, UBC Faculty of Medicine
+                            JMIR Diabetes (in-press) • BC Children's Hospital Research Institute, UBC Faculty of Medicine
+                        </div>
+                        <div className="pt-2">
+                            <Button 
+                                href="https://preprints.jmir.org/preprint/71733/"
+                                text="Preprint"
+                                icon={IoMdLink}
+                            />
                         </div>
                     </div>
 
@@ -217,7 +224,7 @@ const Main = () => {
                         <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
                             AAAI Undergraduate Consortium 2024
                         </div>
-                        <div className="flex flex-row gap-1 pt-2">
+                        <div className="pt-2">
                             <Button 
                                 href="/files/AAAI_UC_Proposal.pdf"
                                 text="PDF"

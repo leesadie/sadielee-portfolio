@@ -35,10 +35,10 @@ const Card: React.FC<CardProps> = ({
                     <div className="text-sm">
                         {title}
                     </div>
-                    <div className="text-sm text-neutral-500 pt-1">
+                    <div className="md:text-sm text-xs text-neutral-500 pt-1">
                         {subtitle}
                     </div>
-                    <div className="flex flex-row gap-1 pt-4">
+                    <div className="flex flex-row gap-1 md:pt-4 pt-2">
                         <div>
                             {button1}
                         </div>
@@ -52,7 +52,7 @@ const Card: React.FC<CardProps> = ({
                 </div>
                 <div className="w-1/3 h-32 p-2">
                     <div
-                        className="w-full h-full bg-contain rounded-sm"
+                        className="w-full h-full md:bg-contain bg-cover bg-center bg-no-repeat rounded-sm"
                         style={{ backgroundImage: `url(${image})` }}
                     />
                 </div>
