@@ -59,12 +59,12 @@ const Main = () => {
                                 UBC
                             </a>
                         </span>, graduating May 2026, and am a teaching assistant for COGS 401 (Seminar in Cognitive Systems).
-                        Upon graduation, I will be joining 
+                        Upon graduation, I will be joining the
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.chip.org/" className="pl-1">
-                                Boston Children's Hospital
+                                Computational Health Informatics Program
                             </a>
-                        </span>.
+                        </span> at Boston Children's Hospital.
                         Previously, I've worked at 
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
