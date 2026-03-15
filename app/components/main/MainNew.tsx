@@ -50,7 +50,7 @@ const Main = () => {
                 </div>
                 <div className="flex flex-col pt-10">
                     <p>
-                        I build and evaluate AI/ML systems, with a focus on understanding how they behave in critical domains. 
+                        I build and evaluate AI/ML systems, with a focus on understanding performance and integration in clinical practice. 
                     </p>
                     <p className="pt-5">
                         Currently, I study cognitive systems and data science at
@@ -108,7 +108,7 @@ const Main = () => {
                         subtitle="Mayo Clinic Platform • 2025"
                         button1={
                             <Button 
-                                href="https://github.com/leesadie/Re-id_Risk_Imaging"
+                                href="https://github.com/leesadie/reid-risk-imaging"
                                 text="Code"
                                 icon={RiCodeSSlashFill}
                             />
@@ -135,7 +135,7 @@ const Main = () => {
                         subtitle="Mayo Clinic Platform • 2024"
                         button1={
                             <Button 
-                                href="https://github.com/leesadie/prostateimaging"
+                                href="https://github.com/leesadie/prostate-imaging"
                                 text="Code"
                                 icon={RiCodeSSlashFill}
                             />
@@ -148,7 +148,7 @@ const Main = () => {
                         subtitle="BCCHR • 2023-2024"
                         button1={
                             <Button 
-                                href="https://github.com/leesadie/REACHOUT_TIR_Collection"
+                                href="https://github.com/leesadie/reachout-tir"
                                 text="Code"
                                 icon={RiCodeSSlashFill}
                             />
@@ -284,7 +284,7 @@ const Main = () => {
                     />
                     <Project 
                         href="https://github.com/leesadie/forestar"
-                        text="Forestar App (fullstack)"
+                        text="Forestar App"
                         date="2023"
                     />
                 </div>
