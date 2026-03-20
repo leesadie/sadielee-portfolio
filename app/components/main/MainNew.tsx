@@ -65,6 +65,8 @@ const Main = () => {
                                 Computational Health Informatics Program
                             </a>
                         </span> at Boston Children's Hospital.
+                    </p>
+                    <p className="pt-5">
                         Previously, I've worked at 
                         <span className={`hover:opacity-60 cursor-pointer transition duration-200 ${font_med.className}`}>
                             <a target="_blank" rel="noopener noreferrer" href="https://www.mayoclinicplatform.org/" className="pl-1">
@@ -87,9 +89,6 @@ const Main = () => {
                             </a>
                         </span>.
                     </p>
-                </div>
-                <div className="pt-5">
-                    On the side, I enjoy designing software and exploring creative code. 
                 </div>
             </section>
 
@@ -169,7 +168,7 @@ const Main = () => {
                     {/* BCCHR paper */}
                     <div className="group text-main">
                         <div>
-                            T1D REACHOUT - a mobile app to deliver peer support to adults living with type 1 diabetes: The co-design and development process
+                            T1D REACHOUT–A Mobile App to Deliver Peer-Led Mental Health Support to Adults Living With Type 1 Diabetes: Co-Design and Development Process
                         </div>
                         <p className="md:pt-1 pt-2 text-sm text-graysubtitle2">
                             <span className={`${font_med.className}`}>
@@ -178,12 +177,12 @@ const Main = () => {
                             , Baray Sidhu, Parteek Johal, Ayman Azhar, Jonath Sujan, Matthias Görges, Tricia S. Tang
                         </p>
                         <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
-                            JMIR Diabetes (in-press) • BC Children's Hospital Research Institute, UBC Faculty of Medicine
+                            2026 • JMIR Diabetes • BC Children's Hospital Research Institute, UBC Faculty of Medicine
                         </div>
                         <div className="pt-2">
                             <Button 
-                                href="https://preprints.jmir.org/preprint/71733/"
-                                text="Preprint"
+                                href="https://diabetes.jmir.org/2026/1/e71733"
+                                text="JMIR"
                                 icon={IoMdLink}
                             />
                         </div>
@@ -201,7 +200,7 @@ const Main = () => {
                             , Adam Resnick, Nasibeh Zanjirani Farahani
                         </p>
                         <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
-                            IEEE MIT URTC 2024 • Mayo Clinic Platform
+                            2024 • IEEE MIT URTC • Mayo Clinic Platform
                         </div>
                         <div className="flex flex-row gap-1 pt-2">
                             <Button 
@@ -228,7 +227,7 @@ const Main = () => {
                             </span>
                         </p>
                         <div className="pt-1 md:pt-0 text-sm text-graysubtitle2">
-                            AAAI Undergraduate Consortium 2024
+                            2024 • AAAI Undergraduate Consortium
                         </div>
                         <div className="pt-2">
                             <Button 
@@ -263,28 +262,27 @@ const Main = () => {
                 </div>
 
                 <div className={`md:pt-20 pt-18 ${font_med.className}`}>
-                    Misc. software
+                    Web projects
                 </div>
                 <div>
-                    <Project 
-                        href="/creativecode"
-                        text="Creative Code"
-                        date="Ongoing"
-                        newTab={false}
-                    />
+                    {/* <Project 
+                        href="https://github.com/leesadie/lambda"
+                        text="A formal semantics lambda calculus interpreter"
+                        date="2026"
+                    /> */}
                     <Project 
                         href="https://www.voythos.io/"
-                        text="Voythos Web"
+                        text="Voythos website and brand re-design"
                         date="2025"
                     />
                     <Project 
                         href="https://ubcballet.vercel.app/"
-                        text="UBC Ballet Web"
+                        text="UBC Ballet website and brand re-design"
                         date="2024"
                     />
                     <Project 
                         href="https://github.com/leesadie/forestar"
-                        text="Forestar App"
+                        text="Forestar web app"
                         date="2023"
                     />
                 </div>
